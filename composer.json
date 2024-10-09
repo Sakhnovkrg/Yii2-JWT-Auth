@@ -1,0 +1,36 @@
+{
+  "name": "sakhnovkrg/yii2-jwt-auth",
+  "description": "Yii2 JWT Auth Module",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "module",
+    "auth",
+    "jwt"
+  ],
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/sakhnovkrg/yii2-jwt-auth/issues",
+    "source": "https://github.com/sakhnovkrg/yii2-jwt-auth"
+  },
+  "authors": [
+    {
+      "name": "Sakhnovkrg",
+      "email": "sakhnov.krg@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "yiisoft/yii2": "*",
+    "firebase/php-jwt": "^6.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "sakhnovkrg\\yii2\\jwt\\": "src/"
+    }
+  },
+  "extra": {
+      "bootstrap": "sakhnovkrg\\yii2\\jwt\\JWTModule"
+  }
+}
